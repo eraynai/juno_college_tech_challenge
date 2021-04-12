@@ -17,9 +17,11 @@ body {
 .wrapper {
   width: 89%;
   margin: 0 auto;
+  position: relative;
 }
 
-.top-nav {
+.top-nav,
+.footer-nav ul {
   display: flex;
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -31,16 +33,17 @@ body {
   object-fit: contain;
 }
 
-ul {
+.top-nav ul {
   display: flex;
   align-items: center;
 }
-ul li {
+.top-nav ul li,
+.footer-nav ul li {
   list-style: none;
   margin-right: 2rem;
 }
 
-ul li a {
+.top-nav ul li a {
   text-decoration: none;
   font-size: 1.67vw;
   font-family: "Montserrat", sans-serif;
@@ -48,11 +51,11 @@ ul li a {
   color: #4a455c;
 }
 
-li:first-child > a {
-  margin-left: 2rem;
+.space-nav li:first-child > a {
+  margin-left: 10rem;
 }
 
-li:last-child {
+.space-nav li:last-child {
   margin-right: 0;
 }
 
@@ -232,12 +235,14 @@ section h2 {
 
 footer {
   background-color: #d64c31;
-  padding: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .footer-content h3 {
   font-size: 3rem;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -248,10 +253,56 @@ footer {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  width: 50%;
 }
 
 footer img {
   width: 100%;
   max-width: 14%;
   object-fit: contain;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  font-size: 1.67vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer-copyright {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.mailing-list-container {
+  position: absolute;
+  background-color: #4a455c;
+  right: 0;
+  padding: 3rem;
+  padding-top: 4rem;
+  top: -36px;
+}
+
+.mailing-list-container h3 {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+input {
+  display: block;
+  padding: 1.5rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.email-content {
+  color: lightgray;
 }
