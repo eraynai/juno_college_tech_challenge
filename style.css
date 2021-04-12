@@ -20,8 +20,7 @@ body {
   position: relative;
 }
 
-.top-nav,
-.footer-nav ul {
+.top-nav {
   display: flex;
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -235,8 +234,6 @@ section h2 {
 
 footer {
   background-color: #d64c31;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .footer-content h3 {
@@ -254,6 +251,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   width: 50%;
+  line-height: 3.5rem;
 }
 
 footer img {
@@ -266,7 +264,7 @@ footer img {
   text-decoration: none;
   font-size: 1.67vw;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff;
 }
 
@@ -282,8 +280,9 @@ footer img {
   background-color: #4a455c;
   right: 0;
   padding: 3rem;
-  padding-top: 4rem;
-  top: -36px;
+  padding-top: 8rem;
+  bottom: 0;
+  width: 40%;
 }
 
 .mailing-list-container h3 {
@@ -293,16 +292,53 @@ footer img {
   color: #fff;
 }
 
+.mailing-list-container p {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 3.5rem;
+  margin-top: 3rem;
+}
+
 input {
-  display: block;
-  padding: 1.5rem;
+  display: flex;
+  padding: 1.2rem;
   border-radius: 6px;
   border: none;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  max-width: 78%;
 }
 
 .email-content {
   color: lightgray;
+  margin-top: 2rem;
+}
+
+.submit-content {
+  background-color: #fff0e7;
+  margin-top: 2rem;
+}
+
+.fab {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+
+.footer-content {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.icons {
+  margin-top: 2rem;
+}
+
+.footer-nav ul {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
