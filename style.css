@@ -97,6 +97,7 @@ section h2 {
   font-size: 11rem;
   font-family: "Cormorant Garamond", serif;
   color: #4a455c;
+  font-weight: 500;
 }
 
 .blog-grid {
@@ -183,6 +184,8 @@ section h2 {
 
 .related-posts {
   background-color: #fff0e7;
+  padding-bottom: 14rem;
+  padding-top: 5rem;
 }
 
 .blog-grid-related {
@@ -192,14 +195,63 @@ section h2 {
   row-gap: 5rem;
 }
 
-.blog-grid-related h3 {
+.related-content {
+  padding: 4rem;
+}
+
+.related-content h3 {
   color: #d64c31;
   font-family: "Montserrat", sans-serif;
   font-size: 4.5rem;
 }
 
-.related-posts-date {
+.related-content p {
   color: #4a455c;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
+}
+
+.related-content button {
+  font-size: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #d64c31;
+  background-color: #ffffff;
+  color: #4a455c;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  font-weight: 500;
+}
+
+.related-item {
+  background-color: #ffffff;
+}
+
+.related-description {
+  line-height: 3.5rem;
+}
+
+footer {
+  background-color: #d64c31;
+  padding: 4rem;
+}
+
+.footer-content h3 {
+  font-size: 3rem;
+  padding-top: 2rem;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.footer-content p {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+footer img {
+  width: 100%;
+  max-width: 14%;
+  object-fit: contain;
 }
