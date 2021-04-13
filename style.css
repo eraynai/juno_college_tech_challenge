@@ -456,10 +456,6 @@ input {
 
   .blog-grid-related {
     column-gap: 3.5rem;
-    /* grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-      "related-column-1 related-column-2"
-      "related-column-3 ."; */
   }
 
   .blog-grid p,
@@ -554,6 +550,15 @@ input {
       "column-2"
       "column-4"
       "column-3";
+  }
+
+  .blog-grid-related {
+    row-gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "related-column-1"
+      "related-column-2"
+      "related-column-3";
   }
 
   section h2 {
