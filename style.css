@@ -67,10 +67,6 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 78%, 0 78%);
 }
 
-.fab {
-  color: black;
-}
-
 .hero-container {
   position: absolute;
   background-color: #d64c31;
@@ -210,7 +206,19 @@ section h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5rem;
-  row-gap: 5rem;
+  grid-template-areas: " related-column-1 related-column-2 related-column-3";
+}
+
+.related-item-1 {
+  grid-area: related-column-1;
+}
+
+.related-item-2 {
+  grid-area: related-column-2;
+}
+
+.related-item-3 {
+  grid-area: related-column-3;
 }
 
 .related-content {
@@ -382,16 +390,38 @@ input {
     row-gap: 4rem;
   }
 
+  .blog-grid-related {
+    column-gap: 4rem;
+  }
+
+  .blog-grid button,
+  .related-content button {
+    font-size: 2rem;
+  }
+
   .blog-grid p {
     font-size: 1.5rem;
   }
 
-  .blog-grid p {
-    font-size: 1.3rem;
+  .related-content p {
+    font-size: 1.5rem;
   }
 
   .blog-grid h3 {
     font-size: 4rem;
+  }
+
+  .related-content h3 {
+    font-size: 4rem;
+  }
+
+  section h2 {
+    font-size: 8rem;
+    padding-bottom: 3rem;
+  }
+
+  .blog {
+    margin-top: 6rem;
   }
 }
 
@@ -410,7 +440,12 @@ input {
     font-size: 1.2rem;
   }
 
-  .blog-description {
+  .blog-description,
+  .related-description {
+    line-height: 3rem;
+  }
+
+  .blog-item-4 {
     line-height: 3rem;
   }
 
@@ -419,12 +454,36 @@ input {
     row-gap: 3.5rem;
   }
 
-  .blog-grid p {
+  .blog-grid-related {
+    column-gap: 3.5rem;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "related-column-1 related-column-2"
+      "related-column-3 ."; */
+  }
+
+  .blog-grid p,
+  .related-content p {
     font-size: 1rem;
   }
 
-  .blog-grid h3 {
+  .blog-grid h3,
+  .related-content h3 {
     font-size: 3rem;
+  }
+
+  section h2 {
+    font-size: 7rem;
+    padding-bottom: 2rem;
+  }
+
+  .blog {
+    margin-top: 5rem;
+  }
+
+  .blog-grid button,
+  .related-content button {
+    font-size: 1.5rem;
   }
 }
 
@@ -452,6 +511,24 @@ input {
       "column-4 column-3"
       ". column-3";
   }
+
+  .blog-grid-related {
+    column-gap: 3rem;
+    row-gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "related-column-1 related-column-2"
+      "related-column-3 .";
+  }
+
+  section h2 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+
+  .blog {
+    margin-top: 4rem;
+  }
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -477,5 +554,14 @@ input {
       "column-2"
       "column-4"
       "column-3";
+  }
+
+  section h2 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .blog {
+    margin-top: 3rem;
   }
 }
