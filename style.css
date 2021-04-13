@@ -58,6 +58,10 @@ body {
   margin-right: 0;
 }
 
+.hero-main-container {
+  position: relative;
+}
+
 .hero-image {
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 78%, 0 78%);
@@ -74,7 +78,7 @@ body {
   right: 0;
   padding: 5rem;
   padding-right: 16rem;
-  bottom: -29px;
+  bottom: 0;
 }
 
 .hero-container h1 {
@@ -100,6 +104,7 @@ section h2 {
   font-family: "Cormorant Garamond", serif;
   color: #4a455c;
   font-weight: 500;
+  padding-bottom: 4rem;
 }
 
 .blog-grid {
@@ -187,7 +192,7 @@ section h2 {
 .related-posts {
   background-color: #fff0e7;
   padding-bottom: 14rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .blog-grid-related {
@@ -249,7 +254,7 @@ footer {
   font-size: 2rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   width: 50%;
   line-height: 3.5rem;
 }
@@ -341,4 +346,35 @@ input {
   display: flex;
   padding-top: 2rem;
   padding-bottom: 4rem;
+}
+
+.blog {
+  margin-top: 7rem;
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+  .hero-container h1 {
+    font-size: 8rem;
+  }
+
+  .hero-container p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  .hero-container h1 {
+    font-size: 5rem;
+  }
+
+  .hero-container p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  ...;
 }
