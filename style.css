@@ -44,7 +44,7 @@ body {
 
 .top-nav ul li a {
   text-decoration: none;
-  font-size: 1.67vw;
+  font-size: 2.3vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #4a455c;
@@ -273,7 +273,7 @@ footer {
   font-size: 2rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   width: 50%;
   line-height: 3.5rem;
 }
@@ -286,7 +286,7 @@ footer img {
 
 .footer-nav ul li a {
   text-decoration: none;
-  font-size: 1.67vw;
+  font-size: 2.3vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #ffffff;
@@ -415,6 +415,14 @@ input {
     font-size: 4rem;
   }
 
+  .footer-content h3 {
+    font-size: 2rem;
+  }
+
+  .footer-content p {
+    font-size: 1.5rem;
+  }
+
   section h2 {
     font-size: 8rem;
     padding-bottom: 3rem;
@@ -422,6 +430,24 @@ input {
 
   .blog {
     margin-top: 6rem;
+  }
+
+  .mailing-list-container h3 {
+    font-size: 2.5rem;
+  }
+
+  .mailing-list-container p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  input {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .fab {
+    font-size: 2.5rem;
   }
 }
 
@@ -481,6 +507,10 @@ input {
   .related-content button {
     font-size: 1.5rem;
   }
+
+  .mailing-list-container h3 {
+    font-size: 1.95rem;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -525,6 +555,31 @@ input {
   .blog {
     margin-top: 4rem;
   }
+
+  .mailing-list-container h3 {
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .mailing-list-container p {
+    margin-top: 8rem;
+    margin-bottom: 9rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  .fab {
+    font-size: 2rem;
+  }
+
+  .footer-nav ul {
+    display: inline-block;
+  }
+  .footer-nav ul li {
+    padding-bottom: 1rem;
+  }
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -568,5 +623,42 @@ input {
 
   .blog {
     margin-top: 3rem;
+  }
+
+  .mailing-list-container {
+    padding: 2rem;
+    width: 47%;
+    padding-top: 6rem;
+  }
+
+  .mailing-list-container h3 {
+    font-size: 1rem;
+  }
+
+  .mailing-list-container p {
+    font-size: 1rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .fab {
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .fa-github {
+    margin-right: 0;
+  }
+
+  .footer-content p {
+    font-size: 1.2rem;
+  }
+
+  .footer-content h3 {
+    font-size: 1.25rem;
+  }
+
+  input {
+    font-size: 1rem;
   }
 }
