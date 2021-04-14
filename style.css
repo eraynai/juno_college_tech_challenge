@@ -14,6 +14,16 @@ body {
   box-sizing: border-box;
 }
 
+.related-content button:hover {
+  background-color: #d64c31;
+  color: #ffffff;
+}
+
+.blog-text-content button:hover {
+  background-color: #fff;
+  color: #d64c31;
+}
+
 .wrapper {
   width: 89%;
   margin: 0 auto;
