@@ -78,7 +78,7 @@ body {
 }
 
 .hero-container h1 {
-  font-size: 11.5rem;
+  font-size: 7.2vw;
   font-family: "Cormorant Garamond", serif;
   color: #ffffff;
 }
@@ -145,19 +145,12 @@ section h2 {
   font-size: 2rem;
 }
 
-.blog-grid h3 {
-  font-size: 4.5rem;
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-}
-
 .blog-item {
   background-color: #4a455c;
 }
 
 .blog-grid p {
-  font-size: 2vw;
+  font-size: 1.3vw;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-weight: 400;
@@ -166,7 +159,7 @@ section h2 {
 .related-content p {
   color: #4a455c;
   font-family: "Montserrat", sans-serif;
-  font-size: 2vw;
+  font-size: 1.3vw;
 }
 
 .blog-grid button {
@@ -187,6 +180,10 @@ section h2 {
 .blog-text-content h3 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  font-size: 2.8vw;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .blog-text-content .aside-about {
@@ -234,7 +231,7 @@ section h2 {
 .related-content h3 {
   color: #d64c31;
   font-family: "Montserrat", sans-serif;
-  font-size: 4.5rem;
+  font-size: 2.8vw;
 }
 
 .related-content button {
@@ -269,13 +266,21 @@ footer {
   font-weight: 500;
 }
 
-.footer-content p {
-  font-size: 2rem;
+.main-footer-text {
+  font-size: 1.3vw;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   width: 50%;
   line-height: 3.5rem;
+}
+
+.footer-copyright {
+  font-size: 1.3vw;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 50%;
 }
 
 footer img {
@@ -289,13 +294,6 @@ footer img {
   font-size: 2.3vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #ffffff;
-}
-
-.footer-copyright {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 2rem;
   color: #ffffff;
 }
 
@@ -317,7 +315,7 @@ footer img {
 }
 
 .mailing-list-container p {
-  font-size: 2rem;
+  font-size: 1.6vw;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -382,10 +380,6 @@ input {
     padding-right: 13rem;
   }
 
-  .hero-container h1 {
-    font-size: 8rem;
-  }
-
   .hero-container p {
     font-size: 1.5rem;
   }
@@ -412,20 +406,8 @@ input {
     font-size: 1.5rem;
   }
 
-  .blog-grid h3 {
-    font-size: 4rem;
-  }
-
-  .related-content h3 {
-    font-size: 4rem;
-  }
-
   .footer-content h3 {
     font-size: 2rem;
-  }
-
-  .footer-content p {
-    font-size: 1.5rem;
   }
 
   section h2 {
@@ -442,7 +424,6 @@ input {
   }
 
   .mailing-list-container p {
-    font-size: 1.5rem;
     line-height: 3rem;
   }
 
@@ -461,10 +442,6 @@ input {
   .hero-container {
     padding-right: 13rem;
     padding: 4rem;
-  }
-
-  .hero-container h1 {
-    font-size: 5rem;
   }
 
   .hero-container p {
@@ -487,11 +464,6 @@ input {
 
   .blog-grid-related {
     column-gap: 3.5rem;
-  }
-
-  .blog-grid h3,
-  .related-content h3 {
-    font-size: 3rem;
   }
 
   section h2 {
@@ -533,10 +505,6 @@ input {
   .hero-container {
     padding-right: 11rem;
     padding: 3rem;
-  }
-
-  .hero-container h1 {
-    font-size: 3rem;
   }
 
   .hero-container p {
@@ -594,6 +562,11 @@ input {
   .footer-nav ul li a {
     font-size: 2.5vw;
   }
+
+  .main-footer-text {
+    font-size: 1.2vw;
+    line-height: 1rem;
+  }
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -601,10 +574,6 @@ input {
   .hero-container {
     padding-right: 3rem;
     padding: 2rem;
-  }
-
-  .hero-container h1 {
-    font-size: 2rem;
   }
 
   .hero-container p {
@@ -658,10 +627,6 @@ input {
 
   .fa-github {
     margin-right: 0;
-  }
-
-  .footer-content p {
-    font-size: 2.2vw;
   }
 
   .footer-content h3 {
