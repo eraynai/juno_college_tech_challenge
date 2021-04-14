@@ -44,7 +44,7 @@ body {
 
 .top-nav ul li a {
   text-decoration: none;
-  font-size: 2.3vw;
+  font-size: 1.67vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #4a455c;
@@ -306,7 +306,7 @@ footer img {
   padding: 3rem;
   padding-top: 8rem;
   bottom: 0;
-  width: 40%;
+  width: 40vw;
 }
 
 .mailing-list-container h3 {
@@ -338,7 +338,7 @@ input {
 
 .email-content {
   color: lightgray;
-  margin-top: 2rem;
+  margin-top: 8%;
 }
 
 .submit-content {
@@ -511,6 +511,10 @@ input {
   .mailing-list-container h3 {
     font-size: 1.95rem;
   }
+
+  .email-content {
+    margin-top: 9%;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -558,12 +562,6 @@ input {
 
   .mailing-list-container h3 {
     font-size: 1.5rem;
-    padding-bottom: 4rem;
-  }
-
-  .mailing-list-container p {
-    margin-top: 8rem;
-    margin-bottom: 9rem;
   }
 
   input {
@@ -579,6 +577,11 @@ input {
   }
   .footer-nav ul li {
     padding-bottom: 1rem;
+    margin-right: 0;
+  }
+
+  .footer-nav ul li a {
+    font-size: 2.5vw;
   }
 }
 
@@ -625,20 +628,12 @@ input {
     margin-top: 3rem;
   }
 
-  .mailing-list-container {
-    padding: 2rem;
-    width: 47%;
-    padding-top: 6rem;
-  }
-
   .mailing-list-container h3 {
     font-size: 1rem;
   }
 
   .mailing-list-container p {
     font-size: 1rem;
-    margin-top: 12rem;
-    margin-bottom: 12rem;
   }
 
   .fab {
@@ -660,5 +655,16 @@ input {
 
   input {
     font-size: 1rem;
+  }
+
+  .footer-nav ul li a {
+    font-size: 4.2vw;
+  }
+  .mailing-list-container {
+    padding: 2rem;
+  }
+
+  .footer-content p {
+    line-height: 2.5rem;
   }
 }
