@@ -84,10 +84,10 @@ body {
 }
 
 .hero-container p {
-  font-size: 2rem;
+  font-size: 1.37vw;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  line-height: 4rem;
+  line-height: 3.5rem;
 }
 
 .block-wrapper {
@@ -149,21 +149,14 @@ section h2 {
   background-color: #4a455c;
 }
 
-.blog-grid p {
-  font-size: 1.3vw;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  font-weight: 400;
-}
-
 .related-content p {
   color: #4a455c;
   font-family: "Montserrat", sans-serif;
   font-size: 1.3vw;
 }
 
-.blog-grid button {
-  font-size: 2.2rem;
+.blog-text-content button {
+  font-size: 1.53vw;
   font-family: "Montserrat", sans-serif;
   background-color: #d64c31;
   border: none;
@@ -192,6 +185,10 @@ section h2 {
 }
 .blog-description {
   line-height: 3.5rem;
+  font-size: 1.3vw;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .about-content {
@@ -232,10 +229,12 @@ section h2 {
   color: #d64c31;
   font-family: "Montserrat", sans-serif;
   font-size: 2.8vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .related-content button {
-  font-size: 2.2rem;
+  font-size: 1.53vw;
   font-family: "Montserrat", sans-serif;
   border: 2px solid #d64c31;
   background-color: #ffffff;
@@ -258,7 +257,7 @@ footer {
 }
 
 .footer-content h3 {
-  font-size: 3rem;
+  font-size: 2.23vw;
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #ffffff;
@@ -308,14 +307,14 @@ footer img {
 }
 
 .mailing-list-container h3 {
-  font-size: 3rem;
+  font-size: 1.88vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #fff;
 }
 
 .mailing-list-container p {
-  font-size: 1.6vw;
+  font-size: 1.3vw;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -325,7 +324,7 @@ footer img {
 
 input {
   display: flex;
-  padding: 1.2rem;
+  padding: 1.25vw;
   border-radius: 6px;
   border: none;
   font-size: 2rem;
@@ -380,10 +379,6 @@ input {
     padding-right: 13rem;
   }
 
-  .hero-container p {
-    font-size: 1.5rem;
-  }
-
   .blog-grid {
     column-gap: 4rem;
     row-gap: 4rem;
@@ -391,23 +386,6 @@ input {
 
   .blog-grid-related {
     column-gap: 4rem;
-  }
-
-  .blog-grid button,
-  .related-content button {
-    font-size: 2rem;
-  }
-
-  .blog-grid p {
-    font-size: 1.5rem;
-  }
-
-  .related-content p {
-    font-size: 1.5rem;
-  }
-
-  .footer-content h3 {
-    font-size: 2rem;
   }
 
   section h2 {
@@ -419,17 +397,8 @@ input {
     margin-top: 6rem;
   }
 
-  .mailing-list-container h3 {
-    font-size: 2.5rem;
-  }
-
   .mailing-list-container p {
-    line-height: 3rem;
-  }
-
-  input {
-    padding: 1rem;
-    font-size: 1.5rem;
+    line-height: 3.5rem;
   }
 
   .fab {
@@ -442,10 +411,6 @@ input {
   .hero-container {
     padding-right: 13rem;
     padding: 4rem;
-  }
-
-  .hero-container p {
-    font-size: 1.2rem;
   }
 
   .blog-description,
@@ -475,15 +440,6 @@ input {
     margin-top: 5rem;
   }
 
-  .blog-grid button,
-  .related-content button {
-    font-size: 1.5rem;
-  }
-
-  .mailing-list-container h3 {
-    font-size: 1.95rem;
-  }
-
   .email-content {
     margin-top: 10%;
     width: 39vw;
@@ -498,6 +454,14 @@ input {
   .mailing-list-flex {
     padding-top: 10%;
   }
+
+  input {
+    font-size: 1.8vw;
+  }
+
+  .footer-copyright {
+    font-size: 1.6vw;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -508,7 +472,6 @@ input {
   }
 
   .hero-container p {
-    font-size: 1rem;
     line-height: 3rem;
   }
   .blog-grid {
@@ -539,14 +502,6 @@ input {
     margin-top: 4rem;
   }
 
-  .mailing-list-container h3 {
-    font-size: 1.5rem;
-  }
-
-  input {
-    font-size: 1rem;
-  }
-
   .fab {
     font-size: 2rem;
   }
@@ -563,9 +518,24 @@ input {
     font-size: 2.5vw;
   }
 
-  .main-footer-text {
-    font-size: 1.2vw;
-    line-height: 1rem;
+  .main-footer-text,
+  .mailing-list-container p {
+    font-size: 1.7vw;
+    line-height: 2rem;
+  }
+
+  .footer-copyright {
+    font-size: 2vw;
+  }
+
+  .blog-description,
+  .related-content p {
+    line-height: 2rem;
+    font-size: 1.7vw;
+  }
+
+  .hero-container p {
+    font-size: 1.7vw;
   }
 }
 
@@ -612,12 +582,8 @@ input {
     padding: 1rem;
   }
 
-  .mailing-list-container h3 {
-    font-size: 3.4vw;
-  }
-
   .mailing-list-container p {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   .fab {
@@ -629,10 +595,6 @@ input {
     margin-right: 0;
   }
 
-  .footer-content h3 {
-    font-size: 1.25rem;
-  }
-
   input {
     font-size: 1.7vw;
   }
@@ -640,8 +602,27 @@ input {
   .footer-nav ul li a {
     font-size: 4.2vw;
   }
+  .main-footer-text {
+    font-size: 2.5vw;
+    line-height: 2.2rem;
+  }
 
-  .footer-content p {
-    line-height: 2.5rem;
+  .footer-copyright {
+    font-size: 2.2vw;
+  }
+
+  .blog-description,
+  .related-content p,
+  .hero-container p {
+    line-height: 2rem;
+    font-size: 2.5vw;
+  }
+  .mailing-list-container h3,
+  .footer-content h3 {
+    font-size: 2.8vw;
+  }
+
+  .mailing-list-container p {
+    margin-top: 2rem;
   }
 }
